@@ -48,11 +48,15 @@ public class MainArray {
        roupas[3] = new Roupa("bikini", "colorida", "pequeno", "verao", "infantil");
        roupas[4] = new Roupa("camisa", "amarela", "Grande", "verao", "camisa da selecao");
 
-        System.out.println(roupas[0].descricao);
-        System.out.println(roupas[1].descricao);
-        System.out.println(roupas[2].descricao);
-        System.out.println(roupas[3].descricao);
-        System.out.println(roupas[4].descricao);
+//        System.out.println(roupas[0].descricao);
+//        System.out.println(roupas[1].descricao);
+//        System.out.println(roupas[2].descricao);
+//        System.out.println(roupas[3].descricao);
+//        System.out.println(roupas[4].descricao);
+
+        for (int i = 0; i < roupas.length; i++) {
+            System.out.println(roupas[i].descricao);
+        }
 
 
     }

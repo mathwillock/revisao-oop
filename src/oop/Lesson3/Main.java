@@ -14,7 +14,7 @@ public class Main {
         Gerente thiago = new Gerente("Thiago", "m", 20000);
         Vendedor ana = new Vendedor("Ana Carolina", "f", 30000, 100000 );
 
-//         Escrevendo um arquivo com os dados dos funcionarios
+//         Escrevendo um arquivo com os dados dos funcionarios com design patterns decorator.
         FileOutputStream fos = new FileOutputStream("funcionaios.txt"); // criando um arquivo em disco.
         OutputStreamWriter osw = new OutputStreamWriter(fos); // Escrever no arquivo.
         BufferedWriter bw = new BufferedWriter(osw); // Escrevendo em parceria com osw

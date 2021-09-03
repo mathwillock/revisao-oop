@@ -1,9 +1,11 @@
 package oop;
 
+import oop.Roupa;
+
 public class MainArray {
     public static void main(String[] args) {
 
-        Roupa [] roupas;
+        Roupa[] roupas;
         roupas = new Roupa[5];
         // Vamos criar uma array passando dentro do for, instanciando os objetos
 

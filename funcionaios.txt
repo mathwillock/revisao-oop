@@ -1,0 +1,6 @@
+Funcionario{nome='Matheus', sexo='M', salario=3000.0}
+Funcionario{nome='Mauri', sexo='M', salario=5000.0}
+Funcionario{nome='Joice', sexo='F', salario=7000.0}
+Funcionario{nome='Kenio', sexo='M', salario=10000.0}
+Funcionario{nome='Thiago', sexo='m', salario=20000.0}   4000.0
+Funcionario{nome='Ana Carolina', sexo='f', salario=30000.0}Vendedor{faturamento=100000.0, comissao=0.0}
